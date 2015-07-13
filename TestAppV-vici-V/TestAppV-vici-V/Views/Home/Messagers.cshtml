@@ -1,0 +1,15 @@
+﻿@using TestAppV_vici_V;
+@{
+    Layout = null;
+}
+
+
+@if (ViewBag.Messages != null)
+{
+    var AllMess = (List<TestAppV_vici_V.Models.MessgeMod>)ViewBag.Messages;        
+   
+    <div>
+        @Html.MyTableMessage(AllMess,"messTable col-lg-12","messUser col-lg-2","messMessage col-lg-8","messDT col-lg-2")
+    </div>     
+       
+} 

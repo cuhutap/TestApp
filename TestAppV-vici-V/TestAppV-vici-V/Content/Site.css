@@ -1,0 +1,35 @@
+﻿body {
+    background: linear-gradient(to top, #fff, #ccc);
+    background-repeat:no-repeat;
+}
+.txtMess {
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+
+}
+.messager {    
+}
+
+.messTable {
+    border: solid 2px black;
+    margin: 3px;
+}
+.messUser {
+    border: double 1px black;
+    margin: 3px;
+}
+.messMessage {
+    background-color: #fff;
+    border: solid 1px black; 
+    margin: 3px;
+
+}
+.messDT {
+    border: double 1px black;
+    margin: 3px;
+}
+.messTable xmp {
+    font-family: sans-serif;
+    font-size: 16px;
+}
